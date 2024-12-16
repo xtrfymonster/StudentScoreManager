@@ -40,6 +40,13 @@
             animation: chartjs-render-animation 0.001s;
         }
     </style>
+
+    <style>
+        body {
+            /*background-image:url(./img/1.jpg);*/
+            background:linear-gradient(90deg,gray,#b3d7ff);
+        }
+    </style>
 </head>
 
 <body>
@@ -53,7 +60,8 @@
         <div th:replace="commons/admbar::#sidebar(activeUri='index')"></div>
 
         <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
-            <div class="jumbotron jumbotron-fluid">
+<!--            style="background:linear-gradient(90deg,gray,#b3d7ff);"-->
+            <div class="jumbotron jumbotron-fluid" >
                 <div class="container">
                     <h1 class="display-4">管理员首页</h1>
                     <p class="lead">请点击侧边栏进行管理</p>

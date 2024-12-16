@@ -6,13 +6,6 @@ import org.apache.ibatis.annotations.*;
 
 import java.util.List;
 
-/**
- * @ClassName TeacherMapper
- * @Deacription TODO
- * @Author daier
- * @Date 2021/1/8 18:40
- * @Version 1.0
- **/
 @Mapper
 public interface TeacherMapper {
 

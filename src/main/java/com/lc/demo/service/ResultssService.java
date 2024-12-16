@@ -8,9 +8,6 @@ import java.util.List;
 /**
  * @ClassName ResultssService
  * @Deacription TODO
- * @Author daier
- * @Date 2021/1/9 16:53
- * @Version 1.0
  **/
 public interface ResultssService {
 

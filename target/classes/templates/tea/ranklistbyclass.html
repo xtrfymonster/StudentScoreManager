@@ -3,6 +3,12 @@
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 
 <head>
+    <style>
+        body {
+            /*background-image:url(./img/1.jpg);*/
+            background:linear-gradient(90deg,gray,#b3d7ff);
+        }
+    </style>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -55,7 +61,7 @@
 
             <form method="get" th:action="@{/tea/selectRankbyclass}" >
                 <div class="input-group mb-3">
-                    <input type="text" class="form-control"  name="resTerm" placeholder="请输入学期例：（18-2020-1）" aria-label="请输入学期例：（18-2020-1）" aria-describedby="button-addon2">
+                    <input type="text" class="form-control"  name="resTerm" placeholder="请输入学期例：（2021-2022）" aria-label="请输入学期例：（2021-2022）" aria-describedby="button-addon2">
                 </div>
                 <div class="input-group mb-3">
                     <input type="text" class="form-control"  name="className" placeholder="请输入班级名" aria-label="请输入班级名" aria-describedby="button-addon2">

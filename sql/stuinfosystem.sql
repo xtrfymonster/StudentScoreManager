@@ -4,13 +4,13 @@ Navicat MySQL Data Transfer
 Source Server         : localhost_3306
 Source Server Version : 80017
 Source Host           : localhost:3306
-Source Database       : stuinfosystem
+Source Database       : StuInfoSystem
 
 Target Server Type    : MYSQL
 Target Server Version : 80017
 File Encoding         : 65001
 
-Date: 2021-04-11 19:13:03
+Date: 2024-11-11 19:13:03
 */
 
 SET FOREIGN_KEY_CHECKS=0;

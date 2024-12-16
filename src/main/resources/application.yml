@@ -1,11 +1,16 @@
 spring:
   datasource:
+    # 数据库用户名
     username: root
-    password:
+    # 数据库密码
+    password: 123456
+    # 数据库驱动类名，这里mysql为JDBC驱动
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1:3306/scoremanagementsystem?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=Hongkong&useAffectedRows=true
+    # 连接数据库url
+    url: jdbc:mysql://127.0.0.1:3306/soremanage?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=Hongkong&useAffectedRows=true
+    # 数据源类型，这里使用阿里巴巴的Druid数据源
     type: com.alibaba.druid.pool.DruidDataSource
-    #   数据源其他配置
+    # 数据源其他配置
     initialSize: 5
     minIdle: 5
     maxActive: 20
@@ -19,8 +24,6 @@ spring:
 mybatis:
   configuration:
     map-underscore-to-camel-case: true
-
-
 server:
   port: 8080
   tomcat:

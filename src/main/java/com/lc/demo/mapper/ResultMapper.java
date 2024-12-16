@@ -7,13 +7,6 @@ import org.apache.ibatis.annotations.*;
 import java.util.List;
 import java.util.Map;
 
-/**
- * @ClassName ResultMapper
- * @Deacription TODO
- * @Author daier
- * @Date 2021/1/9 11:32
- * @Version 1.0
- **/
 @Mapper
 public interface ResultMapper {
 
